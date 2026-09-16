@@ -2,12 +2,13 @@
   "name": "serverbackend",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "lib.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node lib.js",
+    "test": "node -e \"const { userBase, taskBase } = require('./lib'); console.log(typeof userBase.create, typeof taskBase.findAll);\""
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "module"
+  "type": "commonjs"
 }

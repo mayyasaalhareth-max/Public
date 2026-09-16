@@ -1,17 +1,32 @@
+{
+  "users": [
     {
-        "users" :[
-           {
-             "name": "Majd",
-             "age": "20",
-             "taskid": ""
-           }
-        ],
-
-        "task" : [
-            {
-              "name" :"",
-              "discription" : "",
-              "state" : ""
-            }
-        ]
+      "id": 1,
+      "name": "Majd",
+      "age": 20,
+      "taskid": ""
+    },
+    {
+      "id": 1789553341409,
+      "name": "User Test",
+      "taskid": "",
+      "gender": "Male"
     }
+  ],
+  "task": [
+    {
+      "id": 1,
+      "name": "",
+      "description": "",
+      "status": "لم يبدأ",
+      "owner": "Majd"
+    },
+    {
+      "id": 1789553341060,
+      "status": "?? ????",
+      "description": "Saved to JSON",
+      "name": "Task Test",
+      "owner": "User Test"
+    }
+  ]
+}
